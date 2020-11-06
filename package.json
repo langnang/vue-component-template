@@ -1,0 +1,65 @@
+{
+  "name": "@langnang/vue-component-template",
+  "description": "Vue component template",
+  "homepage": "https://github.com/langnang/vue-component-template#readme",
+  "version": "0.1.0",
+  "main": "lib/vue-component-template.umd.min.js",
+  "private": false,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vue-component-template --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.0",
+    "@vue/cli-plugin-eslint": "^3.12.0",
+    "@vue/cli-service": "^3.12.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:vue/recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langnang/vue-component-template.git"
+  },
+  "keywords": [
+    "langnang",
+    "vue",
+    "component",
+    "template"
+  ],
+  "author": "langnang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/langnang/vue-component-template/issues"
+  }
+}
